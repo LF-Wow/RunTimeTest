@@ -13,6 +13,10 @@
 		30604C991DBB136F00FE3EE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30604C971DBB136F00FE3EE8 /* Main.storyboard */; };
 		30604C9B1DBB136F00FE3EE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30604C9A1DBB136F00FE3EE8 /* Assets.xcassets */; };
 		30604C9E1DBB137000FE3EE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30604C9C1DBB137000FE3EE8 /* LaunchScreen.storyboard */; };
+		30DF18A01DC33B98009D7C53 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DF189F1DC33B98009D7C53 /* Person.m */; };
+		30DF18A31DC33C6C009D7C53 /* UIImage+ChangeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DF18A21DC33C6C009D7C53 /* UIImage+ChangeMethod.m */; };
+		30DF18A61DC33E50009D7C53 /* NSObject+AddAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DF18A51DC33E50009D7C53 /* NSObject+AddAttribute.m */; };
+		30DF18A81DC33F15009D7C53 /* 表情.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30DF18A71DC33F15009D7C53 /* 表情.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		30604C9A1DBB136F00FE3EE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30604C9D1DBB137000FE3EE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30604C9F1DBB137000FE3EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30DF189E1DC33B98009D7C53 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		30DF189F1DC33B98009D7C53 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		30DF18A11DC33C6C009D7C53 /* UIImage+ChangeMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ChangeMethod.h"; sourceTree = "<group>"; };
+		30DF18A21DC33C6C009D7C53 /* UIImage+ChangeMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ChangeMethod.m"; sourceTree = "<group>"; };
+		30DF18A41DC33E50009D7C53 /* NSObject+AddAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AddAttribute.h"; sourceTree = "<group>"; };
+		30DF18A51DC33E50009D7C53 /* NSObject+AddAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AddAttribute.m"; sourceTree = "<group>"; };
+		30DF18A71DC33F15009D7C53 /* 表情.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "表情.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +69,17 @@
 		30604C8D1DBB136D00FE3EE8 /* RunTimeTest */ = {
 			isa = PBXGroup;
 			children = (
+				30DF18A71DC33F15009D7C53 /* 表情.jpg */,
 				30604C911DBB136E00FE3EE8 /* AppDelegate.h */,
 				30604C921DBB136E00FE3EE8 /* AppDelegate.m */,
 				30604C941DBB136E00FE3EE8 /* ViewController.h */,
 				30604C951DBB136E00FE3EE8 /* ViewController.m */,
+				30DF189E1DC33B98009D7C53 /* Person.h */,
+				30DF189F1DC33B98009D7C53 /* Person.m */,
+				30DF18A11DC33C6C009D7C53 /* UIImage+ChangeMethod.h */,
+				30DF18A21DC33C6C009D7C53 /* UIImage+ChangeMethod.m */,
+				30DF18A41DC33E50009D7C53 /* NSObject+AddAttribute.h */,
+				30DF18A51DC33E50009D7C53 /* NSObject+AddAttribute.m */,
 				30604C971DBB136F00FE3EE8 /* Main.storyboard */,
 				30604C9A1DBB136F00FE3EE8 /* Assets.xcassets */,
 				30604C9C1DBB137000FE3EE8 /* LaunchScreen.storyboard */,
@@ -138,6 +156,7 @@
 			files = (
 				30604C9E1DBB137000FE3EE8 /* LaunchScreen.storyboard in Resources */,
 				30604C9B1DBB136F00FE3EE8 /* Assets.xcassets in Resources */,
+				30DF18A81DC33F15009D7C53 /* 表情.jpg in Resources */,
 				30604C991DBB136F00FE3EE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,8 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30DF18A61DC33E50009D7C53 /* NSObject+AddAttribute.m in Sources */,
 				30604C961DBB136E00FE3EE8 /* ViewController.m in Sources */,
 				30604C931DBB136E00FE3EE8 /* AppDelegate.m in Sources */,
+				30DF18A01DC33B98009D7C53 /* Person.m in Sources */,
+				30DF18A31DC33C6C009D7C53 /* UIImage+ChangeMethod.m in Sources */,
 				30604C901DBB136E00FE3EE8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +285,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = RunTimeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhoujun.RunTimeTest;
@@ -274,6 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = RunTimeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhoujun.RunTimeTest;
@@ -300,6 +324,7 @@
 				30604CA41DBB137000FE3EE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
